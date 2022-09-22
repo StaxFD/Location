@@ -18,7 +18,6 @@ function _Location.Menu:Main(LocationPos)
             _LocationButton(LocationPos)
         end)
         if not RageUI.Visible(_Location.Menu.main) 
-        and not RageUI.Visible(_Location.Menu.SousMenuSup) 
         then 
             _Location.Menu.main = RMenu:DeleteType("_Location.Menu.main", true, FreezeEntityPosition(PlayerPedId(),false))
         end
