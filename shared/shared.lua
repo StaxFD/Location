@@ -20,7 +20,7 @@ _Location = {
         Scale = 0.65,
         Color = 3,
         Display = 4,
-        AsShortRange = true,
+        ShortRange = true,
         Name = "Location",  
     },
     ["Translations"] = {
